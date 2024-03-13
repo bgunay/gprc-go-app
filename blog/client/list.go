@@ -5,7 +5,7 @@ import (
 	"io"
 	"log"
 
-	pb "github.com/Clement-Jean/grpc-go-course/blog/proto"
+	pb "github.com/bgunay/grpc-go-course/blog/proto"
 	"google.golang.org/protobuf/types/known/emptypb"
 )
 

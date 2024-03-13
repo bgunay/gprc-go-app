@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	pb "github.com/Clement-Jean/grpc-go-course/calculator/proto"
+	pb "github.com/bgunay/grpc-go-course/calculator/proto"
 )
 
 func (*Server) Primes(in *pb.PrimeRequest, stream pb.CalculatorService_PrimesServer) error {

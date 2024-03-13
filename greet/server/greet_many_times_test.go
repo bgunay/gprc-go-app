@@ -5,7 +5,7 @@ import (
 	"io"
 	"testing"
 
-	pb "github.com/Clement-Jean/grpc-go-course/greet/proto"
+	pb "github.com/bgunay/grpc-go-course/greet/proto"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 )

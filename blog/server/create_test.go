@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	pb "github.com/Clement-Jean/grpc-go-course/blog/proto"
+	pb "github.com/bgunay/grpc-go-course/blog/proto"
 
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo/integration/mtest"

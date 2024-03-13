@@ -4,7 +4,7 @@ import (
 	"io"
 	"log"
 
-	pb "github.com/Clement-Jean/grpc-go-course/calculator/proto"
+	pb "github.com/bgunay/grpc-go-course/calculator/proto"
 )
 
 func (*Server) Max(stream pb.CalculatorService_MaxServer) error {

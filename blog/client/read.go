@@ -4,7 +4,7 @@ import (
 	"context"
 	"log"
 
-	pb "github.com/Clement-Jean/grpc-go-course/blog/proto"
+	pb "github.com/bgunay/grpc-go-course/blog/proto"
 )
 
 func readBlog(c pb.BlogServiceClient, id string) *pb.Blog {

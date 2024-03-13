@@ -1,4 +1,4 @@
-module github.com/Clement-Jean/grpc-go-course
+module github.com/bgunay/grpc-go-course
 
 go 1.19
 
