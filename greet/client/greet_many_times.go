@@ -5,7 +5,7 @@ import (
 	"io"
 	"log"
 
-	pb "github.com/bgunay/grpc-go-course/greet/proto"
+	pb "github.com/bgunay/grpc-go-app/greet/proto"
 )
 
 func doGreetManyTimes(c pb.GreetServiceClient) {

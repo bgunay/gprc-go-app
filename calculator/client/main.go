@@ -6,7 +6,7 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 
-	pb "github.com/bgunay/grpc-go-course/calculator/proto"
+	pb "github.com/bgunay/grpc-go-app/calculator/proto"
 )
 
 var addr string = "localhost:50051"

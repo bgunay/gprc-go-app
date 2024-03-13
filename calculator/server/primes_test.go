@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"testing"
 
-	pb "github.com/bgunay/grpc-go-course/calculator/proto"
+	pb "github.com/bgunay/grpc-go-app/calculator/proto"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 )

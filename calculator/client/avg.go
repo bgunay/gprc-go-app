@@ -4,7 +4,7 @@ import (
 	"context"
 	"log"
 
-	pb "github.com/bgunay/grpc-go-course/calculator/proto"
+	pb "github.com/bgunay/grpc-go-app/calculator/proto"
 )
 
 func doAvg(c pb.CalculatorServiceClient) {

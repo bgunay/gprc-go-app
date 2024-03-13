@@ -8,7 +8,7 @@ import (
 	"log"
 	"net"
 
-	pb "github.com/bgunay/grpc-go-course/blog/proto"
+	pb "github.com/bgunay/grpc-go-app/blog/proto"
 	"google.golang.org/grpc"
 
 	"go.mongodb.org/mongo-driver/mongo"

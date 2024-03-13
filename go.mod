@@ -1,4 +1,4 @@
-module github.com/bgunay/grpc-go-course
+module github.com/bgunay/grpc-go-app
 
 go 1.19
 

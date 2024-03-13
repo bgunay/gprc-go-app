@@ -1,6 +1,6 @@
 # gRPC Go
 
-[![Go Unit Tests](https://github.com/Clement-Jean/grpc-go-course/actions/workflows/tests.yml/badge.svg)](https://github.com/Clement-Jean/grpc-go-course/actions/workflows/tests.yml) [![Lint protobuf](https://github.com/Clement-Jean/grpc-go-course/actions/workflows/lint.yml/badge.svg)](https://github.com/Clement-Jean/grpc-go-course/actions/workflows/lint.yml) ![cross-platform](https://img.shields.io/badge/Platform-windows%20%7C%20macos%20%7C%20linux-brightgreen) ![Udemy](.github/badges/udemy.svg)
+[![Go Unit Tests](https://github.com/bgunay/grpc-go-app/actions/workflows/tests.yml/badge.svg)](https://github.com/bgunay/grpc-go-app/actions/workflows/tests.yml) [![Lint protobuf](https://github.com/bgunay/grpc-go-app/actions/workflows/lint.yml/badge.svg)](https://github.com/bgunay/grpc-go-app/actions/workflows/lint.yml) ![cross-platform](https://img.shields.io/badge/Platform-windows%20%7C%20macos%20%7C%20linux-brightgreen) ![Udemy](.github/badges/udemy.svg)
 
 ## COUPON: `START_AUG`
 
@@ -31,11 +31,11 @@ make all
 #### `Windows - Without Chocolatey`
 
 ```shell
-protoc -Igreet/proto --go_opt=module=github.com/Clement-Jean/grpc-go-course --go_out=. --go-grpc_opt=module=github.com/Clement-Jean/grpc-go-course --go-grpc_out=. greet/proto/*.proto
+protoc -Igreet/proto --go_opt=module=github.com/bgunay/grpc-go-app --go_out=. --go-grpc_opt=module=github.com/bgunay/grpc-go-app --go-grpc_out=. greet/proto/*.proto
 
-protoc -Icalculator/proto --go_opt=module=github.com/Clement-Jean/grpc-go-course --go_out=. --go-grpc_opt=module=github.com/Clement-Jean/grpc-go-course --go-grpc_out=. calculator/proto/*.proto
+protoc -Icalculator/proto --go_opt=module=github.com/bgunay/grpc-go-app --go_out=. --go-grpc_opt=module=github.com/bgunay/grpc-go-app --go-grpc_out=. calculator/proto/*.proto
 
-protoc -Iblog/proto --go_opt=module=github.com/Clement-Jean/grpc-go-course --go_out=. --go-grpc_opt=module=github.com/Clement-Jean/grpc-go-course --go-grpc_out=. blog/proto/*.proto
+protoc -Iblog/proto --go_opt=module=github.com/bgunay/grpc-go-app --go_out=. --go-grpc_opt=module=github.com/bgunay/grpc-go-app --go-grpc_out=. blog/proto/*.proto
 
 go build -o bin/greet/server.exe ./greet/server
 go build -o bin/greet/client.exe ./greet/client

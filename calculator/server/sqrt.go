@@ -6,7 +6,7 @@ import (
 	"log"
 	"math"
 
-	pb "github.com/bgunay/grpc-go-course/calculator/proto"
+	pb "github.com/bgunay/grpc-go-app/calculator/proto"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )

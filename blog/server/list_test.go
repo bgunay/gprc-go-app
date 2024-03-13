@@ -5,7 +5,7 @@ import (
 	"io"
 	"testing"
 
-	pb "github.com/bgunay/grpc-go-course/blog/proto"
+	pb "github.com/bgunay/grpc-go-app/blog/proto"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 	"go.mongodb.org/mongo-driver/mongo/integration/mtest"
